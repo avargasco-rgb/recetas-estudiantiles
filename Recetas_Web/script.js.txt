@@ -1,0 +1,5 @@
+function marcarHecha(boton) {
+  boton.innerText = "¡Receta hecha! ✅";
+  boton.disabled = true;
+  boton.style.backgroundColor = "#888";
+}
